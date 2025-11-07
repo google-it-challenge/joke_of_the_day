@@ -16,5 +16,5 @@ npm start
 
 
 ## Endpoints
-- `/api/jotd` — returns one random joke
-- `/api/jokes` — returns all jokes
+- /api/jotd — returns one random joke
+- /api/jokes — returns all jokes
