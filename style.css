@@ -1,1 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+  overflow: hidden;
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+}
 
+/* Floating shapes */
+.shape {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: float 20s infinite ease-in-out;
+}
+
+.shape:nth-child(1) {
+  width: 150px;
+  height: 150px;
+  background: #ff6f61;
+  top: 10%;
+  left: 15%;
+  animation-delay: 0s;
+}
+
+.shape:nth-child(2) {
+  width: 100px;
+  height: 100px;
+  background: #00bcd4;
+  top: 50%;
+  left: 70%;
+  animation-delay: 5s;
+}
+
+.shape:nth-child(3) {
+  width: 200px;
+  height: 200px;
+  background: #9b59b6;
+  top: 80%;
+  left: 30%;
+  animation-delay: 10s;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-50px) rotate(180deg); }
+  100% { transform: translateY(0) rotate(360deg); }
+}
