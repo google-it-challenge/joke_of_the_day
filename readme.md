@@ -13,3 +13,8 @@ npm install
 
 # Start the server
 npm start
+
+
+# Endpoints
+`/api/jotd`
+`/api/jokes`
