@@ -1,0 +1,15 @@
+# 🃏 Syntax Error – Joke of the Day
+
+A simple **Node.js + Express** web app that serves a random programming joke from a local JSON file.  
+Frontend built with plain **HTML, CSS, and JavaScript**, backend exposes a small **REST API**.
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Install dependencies
+npm install
+
+# Start the server
+npm start
