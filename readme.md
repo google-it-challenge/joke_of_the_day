@@ -16,5 +16,5 @@ npm start
 
 
 # Endpoints
-`/api/jotd`
-`/api/jokes`
+```/api/jotd```
+```/api/jokes```
