@@ -15,6 +15,6 @@ npm install
 npm start
 
 
-# Endpoints
-```/api/jotd```
-```/api/jokes```
+## Endpoints
+- `/api/jotd` — returns one random joke
+- `/api/jokes` — returns all jokes
